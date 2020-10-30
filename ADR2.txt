@@ -1,0 +1,19 @@
+# Customer Identification
+
+## Status
+
+Superseded 
+
+## Context
+
+Currently Farmacy Foods uses the customer credit card in order to identify the customer. This may not be a long term viable option if they are looking to offer a reserve and pick up later functionality if somebody else picks up the food on the behalf of the customer. Storing Credit Card number also means Farmacy Food will be subjected to PCI-DSS requirements. The credit card number will need to encrypted at rest and in transit.
+
+## Decision
+
+Considering the time to market need we decided to not make any enchancements at this time and continue to offer the current functionality of using the card number for identificaction. However we will ensure that the card number is encrypted both at rest and in transit to met PCI requirements. In the future, we will strongly recommend adding the payment network tokenization functonality which will be more secure and alleviate any PCI concerns.
+
+## Consequences
+
+Additional development considerations to encrypt data at rest and in transit which may result in a performance tradeoff
+
+

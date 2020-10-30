@@ -1,0 +1,22 @@
+# Recipes and Nutrition Component
+
+## Status
+
+Accepted
+
+## Context
+
+Nutrition and Recipes component is an engine that will apply contextual rules to nutritional data retreieved from the data store. It will then produce a complete set of potential healthy nutritional recipes for the food recommendation component. The food recommendation component will inturn will apply gelocation based inventory availability information produced by the inventory component to recommend the optimal food items for the customer.
+
+
+## Decision
+
+It was decided to keep the Nutrition and Recipes component as a separate component for separation of concerns and responsibilites.
+
+
+
+## Consequences
+
+We decided to go ahead with a separate Nutrition and Recipes component
+
+

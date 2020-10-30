@@ -1,0 +1,24 @@
+# Architectural Pattern
+
+## Status
+
+Accepted
+
+## Context
+
+ We needed to define an architectural pattern based on the architectural characterstic attributes identified for the Ghost Kitchen. The characterstics identified were: 
+
+1) Simplicity
+2) Reliability
+3) Customizability
+4) Maintainability
+5) Scalability
+
+## Decision
+
+The microkernerl architecture was chosen as it met our architectural characterstic attributes. Cost and time to market were considered as one of the most important factors in our decision making process. The projected volumes provided did not make a strong enough case to choose an alternate architectural paradigm such as microservices or even service based architecture at this time.
+
+## Consequences
+
+The microkernel architecture provides both simplicity, customizability in interfacing with various systems and is a good cost effective option for Farmacy Foods.
+
